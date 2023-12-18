@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media screen and (max-width:680px) {
+    
+}
+
+body{
+    background: rgb(248, 240, 226);
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background: rgb(248, 240, 226);
+}
+@media screen and (max-width: 992px){
+    .head{
+        flex-basis: 100px;
+    }
+}
+.logo{
+    width: 50px;
+    padding: 20px;
+    color: tomato;
+    font-size: 35px;
+    margin-right: 50px;
+}
+.search-bar{
+    margin-top:10px;
+    margin-left: 90px;
+    width: 700px;
+    height: 50px;
+    border: 2px solid black;
+    background:white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(100%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #58629b;
+    cursor: pointer;
+}
+.sign{
+   margin: 20px;
+   width: 80px; 
+}
+.sign a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.sign:hover{
+   border: 1px solid  rgb(236, 236, 236);
+   border-radius: 50%;
+   height: 30px;
+   background: rgb(236, 236, 236);
+   
+}
+.icon-fav{
+    margin: 20px;
+   cursor: pointer;
+   transition: 0.4s ease-in-out;
+}
+.icon-fav:hover{
+    transform: scale(1.1);
+}
+.icon-cart{
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.icon-cart:hover{
+    transform: scale(1.1);
+}
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 20px 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.h5{
+    text-align: center;
+    margin-top: 20px;
+}
+.h4{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.h3{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.h3 p{
+    margin-top: 20px;
+}
+section{
+    background: #bce8ec;
+    margin-top: -20px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content img{
+    border-radius: 50%;
+    margin: 30px;
+    cursor: pointer;
+}
+.content h2{
+    font-size: 14px;
+    text-align: center;
+}
+.section{
+    background: white;
+    
+}
+.fes{
+    border: solid 1px blanchedalmond;
+    align-items: center;
+    margin: 100px;
+    width: 1200px;
+    height: 500px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+.search-ba{
+    margin-left: 400px;
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    background:white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(100%);
+}
+.search-ba input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    
+}
+.search-ba button img{
+    width: 25px;
+}
+.search-ba button{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: #6f79b1;
+    cursor: pointer;
+}
+.che{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.meet{
+    text-align: center;
+    margin: 30px;
+    font-size: 15px;
+}
+.meet h3{
+    margin-top: 10px;
+}
+.gift22{
+    margin-left: 280px;
+    display: flex;
+}
+.gift22 h2{
+    font-size: 10px;
+}
+.imges{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 25px 30px;
+    width: 70px;
+    height: 70px;
+}
+.gifts:hover{
+    border: solid 1px white;
+    border-radius: 25px;
+    background: rgb(209, 184, 184);
+    box-shadow: #bce8ec;
+}
+.gifts h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.spatch{
+    text-align: center;
+    font-size: 35px;
+}
+.ten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+.ten1{
+    margin: 20px;
+    border: solid 1px rgb(248, 240, 226);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+.ten1:hover{
+    transform: scale(1.1);
+}
+.white{
+    background: white;
+}
+.select input{
+    width: 96% ;
+    height: 30px;
+    margin: 3px;
+    border: solid 1px;
+    border-top: solid 1px;
+    border-bottom: solid -1px;
+}
+.card{
+    display: flex;
+   
+    text-align: center;
+    border: solid 1px;
+    border-radius: 25px;
+}
+.card img{
+    border-radius: 25px;
+    width: 500px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.ph2{
+    margin-top: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fo{
+    text-align: center;
+   padding: 30px;
+    background: rgb(86, 86, 240);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #333;
+}
+.shope{
+margin-top: 30px;
+margin-left: 20px;
+}
+.sell{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.about{
+margin-top: 30px;
+margin-left: 20px;
+}
+.help{
+margin-left: 20px;
+margin-top: 30px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+.about h2{
+    color: white;
+}
+.help{
+    color: white;
+}
+.sell{
+    color: white;
+}
+.shope{
+    color: white;
+}
+.im{
+    border: solid 1px #333;
+}
+.copy{
+    text-align: right;
+    background: black;
+    padding-left: 10px;
+}
+.copy a{
+    color: white;
+}
+#but{
+    text-align: left;
+    padding: 30px;
+    border: solid 1px;
+}
